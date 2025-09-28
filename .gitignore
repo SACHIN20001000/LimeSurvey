@@ -77,7 +77,7 @@
 /styles/
 
 #ignore most of the js-build stuff
-node_modules/*
+node_modules/
 node_modules/**/docs
 node_modules/**/demo
 node_modules/**/meteor
@@ -131,14 +131,8 @@ node_modules/**/src
 !/node_modules/chart.js/dist/
 !/node_modules/chart.js/LICENSE.md
 
-vendor/**/docs/
-vendor/**/scripts/
-vendor/**/tests/
-vendor/**/scss/
-vendor/**/less/
-vendor/**/*.sh
-vendor/**/*.md
-vendor/**/gulpfile.js
+# Completely ignore vendor directory
+vendor/
 yarn-error.log
 
 # Test stuff
